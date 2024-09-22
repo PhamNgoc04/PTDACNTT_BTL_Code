@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     var inputUsername = document.getElementById('username');
     var inputPassword = document.getElementById('password');
-    var formLogin = document.getElementById('form-login');
+    var formLogin = document.getElementById('loginForm');
     var divErrors = document.getElementById('errors');
 
     // Đảm bảo các ô nhập liệu trống khi trang được tải
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Kiểm tra thông tin đăng nhập
         if (username === CORRECT_USER && password === CORRECT_PASS) {
-            window.location.href = 'http://127.0.0.1:5500/Ivy_Project/giaodien/index.html';
+            window.location.href = 'https://www.youtube.com/watch?v=tlULZwdhFG0';
         } else {
             // Thêm dấu nháy bao quanh HTML
             divErrors.innerHTML = `
