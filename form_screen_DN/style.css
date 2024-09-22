@@ -11,6 +11,10 @@ body {
     margin: 0;
 }
 
+.error {
+    color: red;
+}
+
 .login-container {
     background: rgba(255, 255, 255, 0.85);
     border-radius: 10px;
